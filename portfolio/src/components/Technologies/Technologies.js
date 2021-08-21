@@ -17,7 +17,8 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <SectionTitle main>Technologies</SectionTitle>
+    <br />
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked on Full-Stack projects with various coding languages and
       frameworks.

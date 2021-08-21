@@ -65,7 +65,7 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle main>About Me</SectionTitle>
+      <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am interested in Artificial Intelligence, mainly want to work with
         machine learning.
