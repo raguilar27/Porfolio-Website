@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -15,7 +15,38 @@ import {
 } from "./FooterStyles";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <FooterWrapper id="contact-info">
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href="tel:209-648-4078">(209)648-4078</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:rogelioaguilar208@gmail.com">
+            rogelioaguilar208@gmail.com
+          </LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Yeet</Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href="https://github.com/raguilar27" target="_blank">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons
+            href="https://www.linkedin.com/in/rogelio-aguilar-52b88617b/"
+            target="_blank"
+          >
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
+  );
 };
 
 export default Footer;
