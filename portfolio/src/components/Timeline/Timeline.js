@@ -65,6 +65,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider />
+      <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I am interested in Artificial Intelligence, mainly want to work with
