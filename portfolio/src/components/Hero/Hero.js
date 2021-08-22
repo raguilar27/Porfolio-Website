@@ -11,10 +11,7 @@ import { LeftSection } from "./HeroStyles";
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle>
-        Welcome to <br />
-        My Personal Portfolio
-      </SectionTitle>
+      <SectionTitle>Rogelio Aguilar</SectionTitle>
       <SectionText>
         I am a Computer Science undergraduate student from UC Merced with an
         interest in front-end, back-end, and software development. Seeking a job

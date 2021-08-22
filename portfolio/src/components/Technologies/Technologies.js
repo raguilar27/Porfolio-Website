@@ -40,7 +40,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, Python, C/C++, Node.js, SQL
+            Java, Python, C/C++, Node.js, MySQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
