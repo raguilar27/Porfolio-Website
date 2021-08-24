@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: "Chat App",
-    description: "Realtime Chat Application ",
+    description:
+      "Realtime Chat Application, that enables the user to sign in with their credetials, via Google or Facebook. Once signed in users can create chats, view their past messages, and message other people with the help of ChatEngine.io. ",
     image: "/images/1.png",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://github.com/raguilar27/ChatApp",
@@ -20,19 +21,21 @@ export const projects = [
   },
   {
     title: "Recipe App",
-    description: "Recipeies",
+    description:
+      "This Recipe application uses TheMealDB API to fetch random recipies, lists of recipes, and ingredients.",
     image: "/images/3.png",
-    tags: ["Html", "CSS", "JavaScript"],
+    tags: ["Html", "CSS", "JavaScript", "TheMealDB"],
     source: "https://github.com/raguilar27/Recipe-App",
     visit: "https://google.com",
     id: 2,
   },
   {
-    title: "DBZ Quiz",
-    description: "Short quiz created for DBZ",
+    title: "UEFA Champions League Stats",
+    description:
+      "Backend application that shows UEFA Champions League Statistics, through the command line. Project consisted of creating a database from scatch. Gathering the data from Kaggle. Then, creating queries in SQL and using a JavaSDK to import the data and queries into the java application.",
     image: "/images/4.png",
-    tags: ["Html", "CSS", "JavaScript"],
-    source: "https://github.com/raguilar27/Quiz-App",
+    tags: ["SQL", "Java", "Java.SDK"],
+    source: "https://github.com/raguilar27/UEFA-Stats",
     visit: "https://google.com",
     id: 3,
   },
