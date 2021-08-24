@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Chat App",
     description:
-      "Realtime Chat Application, that enables the user to sign in with their credetials, via Google or Facebook. Once signed in users can create chats, view their past messages, and message other people with the help of ChatEngine.io. ",
+      "The Chat App is a realtime chat application, that enables the user to sign in with their credetials, via Google or Facebook. Once signed-in, users can create chats, view past messages, and message other people with the help of ChatEngine.io.",
     image: "/images/1.png",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://github.com/raguilar27/ChatApp",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Sudoku Solver",
     description:
-      "This sudoku solver uses python and a backtracking algorithm to find a solution to any solvable sudoku board.",
+      "This sudoku solver uses python and a backtracking algorithm to find a solution to any solvable sudoku board. The backtracking algorithm is displayed on a sudoku board that was created using pygame's gui interface. The pygame allows you to play sudoku and when incorrect warns the user displaying an X at the bottom of the screen. The user can choose to solve the sudoku board by himself or press space to see the backtracking algorithm solve the board.",
     image: "/images/2.png",
     tags: ["Python", "Pygame"],
     source: "https://github.com/raguilar27/Sudoku-Solver",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Recipe App",
     description:
-      "This Recipe application uses TheMealDB API to fetch random recipies, lists of recipes, and ingredients.",
+      "The Recipe App allows users to favorite, search, and view random recipes. This recipe application uses TheMealDB API to fetch random recipies, lists of recipes, and ingredients.",
     image: "/images/3.png",
     tags: ["Html", "CSS", "JavaScript", "TheMealDB"],
     source: "https://github.com/raguilar27/Recipe-App",
@@ -50,16 +50,16 @@ export const TimeLineData = [
   },
   {
     year: 2020,
-    text: "Learned more about developing full stack web applications",
+    text: "Learned about managing databases using C.R.U.D. methods",
   },
   {
     year: 2021,
-    text: "Graduated from UC Merced with a Bachelor's Degree in Computer Science and Engineering",
+    text: "Learned about developing full stack web applications, including frameworks, API's and hosting services",
   },
 ];
 
 export const AccomplishmentData = [
   { number: 9, text: "Projects" },
-  { number: 1, text: "Won Innovate to Grow Competition" },
+  { number: 1, text: "Won UC Merced's Innovate to Grow Competition" },
   { number: 2, text: "Attended Hackathons" },
 ];
