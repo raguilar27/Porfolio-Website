@@ -59,7 +59,8 @@ export const TimeLineData = [
 ];
 
 export const PerformanceData = [
-  { number: 9, text: "Projects" },
-  { number: 1, text: "Won UC Merced's Innovate to Grow Competition" },
+  { number: 1, text: "UC Merced Innovate to Grow Award" },
+  { number: 2, text: "Open Source Contributions" },
+  { number: 10, text: "Personal Projects" },
   { number: 2, text: "Attended Hackathons" },
 ];
