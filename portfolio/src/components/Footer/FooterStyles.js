@@ -75,16 +75,16 @@ export const Slogan = styled.h2`
   color: rgba(255, 255, 255);
   min-width: 280px;
   letter-spacing: 0.02em;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 32x;
+  line-height: 36px;
   padding: 1rem;
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 32px;
+    line-height: 36px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
-    line-height: 22px;
-    font-size: 14px;
+    line-height: 36px;
+    font-size: 32px;
     min-width: 100px;
   }
 `;
