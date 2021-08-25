@@ -74,7 +74,7 @@ const Timeline = () => {
         Development, and Software Engineering. My current hobbies are coding,
         working-out, gaming, and reading. Later on in my career, I aspire to
         become a researcher in the field of artificial intelligence because I am
-        fascinated on how complex computer systems can evolve.
+        fascinated on how much a computer system can evolve.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

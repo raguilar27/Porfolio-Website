@@ -23,8 +23,8 @@ const Technologies = () => (
       I've worked on Full-Stack projects with various coding languages and
       frameworks. My favorite coding languages are: Java for data structures and
       algorithms, Python for machine learning, and React for frontend web
-      deveoplment. Some of the technologies I want work with more are C++ and
-      Unity for game deveoplment.
+      deveoplment. Some of the technologies I want to work with later on are C++
+      and Unity for game deveoplment.
     </SectionText>
     <List>
       <ListItem>
