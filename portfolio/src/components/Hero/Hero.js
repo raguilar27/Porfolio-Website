@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 import {
   Section,
@@ -11,20 +12,20 @@ import { LeftSection } from "./HeroStyles";
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <SectionTitle>Rogelio Aguilar</SectionTitle>
+      <SectionTitle>
+        Hello, I'm
+        <br />
+        Rogelio Aguilar
+      </SectionTitle>
       <SectionText>
-        I am a Computer Science undergraduate student from UC Merced with an
-        interest in front-end, back-end, and software development. Seeking a job
-        to apply my experience by helping a company maintaining their website,
-        fixing bugged software, and working with databases.
+        Full-Stack developer interested in Artificial Intelligence and
+        Cybersecurity.
       </SectionText>
-      <Button
-        onClick={() =>
-          window.open("mailto:rogelioaguilar208@gmail.com", "_blank")
-        }
-      >
-        Contact Me
-      </Button>
+      <Link href="../../../images/Resume.pdf">
+        <Button>
+          <a target="_blank">View Resume</a>
+        </Button>
+      </Link>
     </LeftSection>
   </Section>
 );
