@@ -5,14 +5,14 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AccomplishmentsStyles";
-import { AccomplishmentData } from "../../constants/constants";
+import { Box, Boxes, BoxNum, BoxText } from "./PerformanceStyles";
+import { PerformanceData } from "../../constants/constants";
 
 const Accomplishments = () => (
   <Section>
-    <SectionTitle>Accomplishments</SectionTitle>
+    <SectionTitle>Performance</SectionTitle>
     <Boxes>
-      {AccomplishmentData.map((card, index) => (
+      {PerformanceData.map((card, index) => (
         <Box key={index}>
           <BoxNum>{card.number}+</BoxNum>
           <BoxText>{card.text}</BoxText>

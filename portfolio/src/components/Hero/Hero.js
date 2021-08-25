@@ -18,8 +18,7 @@ const Hero = (props) => (
         Rogelio Aguilar
       </SectionTitle>
       <SectionText>
-        Full-Stack developer interested in Artificial Intelligence and
-        Cybersecurity.
+        Full-Stack web developer and aspiring Software Engineer
       </SectionText>
       <Link href="../../../images/Resume.pdf">
         <Button>

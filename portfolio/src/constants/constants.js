@@ -58,7 +58,7 @@ export const TimeLineData = [
   },
 ];
 
-export const AccomplishmentData = [
+export const PerformanceData = [
   { number: 9, text: "Projects" },
   { number: 1, text: "Won UC Merced's Innovate to Grow Competition" },
   { number: 2, text: "Attended Hackathons" },
