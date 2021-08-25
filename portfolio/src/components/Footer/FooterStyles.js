@@ -71,15 +71,15 @@ export const CompanyContainer = styled.div`
   }
 `;
 
-export const Slogan = styled.p`
-  color: rgba(255, 255, 255, 0.5);
+export const Slogan = styled.h2`
+  color: rgba(255, 255, 255);
   min-width: 280px;
   letter-spacing: 0.02em;
   font-size: 18px;
   line-height: 30px;
   padding: 1rem;
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 16px;
+    font-size: 24px;
     line-height: 28px;
   }
   @media ${(props) => props.theme.breakpoints.sm} {

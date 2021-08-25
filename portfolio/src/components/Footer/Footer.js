@@ -17,6 +17,7 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper id="contact-info">
+      <Slogan>Contact Me</Slogan>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
@@ -30,9 +31,6 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Yeet</Slogan>
-        </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/raguilar27" target="_blank">
             <AiFillGithub size="3rem" />
