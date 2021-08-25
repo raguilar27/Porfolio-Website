@@ -69,8 +69,12 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am interested in Artificial Intelligence, mainly want to work with
-        machine learning.
+        I am an Alumni from UC Merced, with a Computer Science and Engineering
+        degree. My interests in the tech world are Artificial Intelligence, Game
+        Development, and Software Engineering. My current hobbies are coding,
+        working-out, gaming, and reading. Later on in my career, I aspire to
+        become a researcher in the field of artificial intelligence because I am
+        fascinated on how complex computer systems can evolve.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
