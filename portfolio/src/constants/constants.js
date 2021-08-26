@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Chat App",
     description:
-      "The Chat App is a realtime chat application, that enables the user to sign in with their credetials, via Google or Facebook. Once signed-in, users can create chats, view past messages, and message other people with the help of ChatEngine.io.",
+      "The Chat App is a real-time chat application, that enables the user to sign in with their credentials, via Google or Facebook. Once signed in, users can create chats, view past messages, and message other people with the help of ChatEngine.io.",
     image: "/images/1.png",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://github.com/raguilar27/ChatApp",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Sudoku Solver",
     description:
-      "This sudoku solver uses a backtracking algorithm to find a solution for any solvable sudoku board. With the backtracking algorithm for each empty box it will try all numbers, find a number that works, repeats for each empty box, and backtracks to check if all numbers will work with every row and column. The user can choose to solve the sudoku board by himself or press space to see the backtracking algorithm complete the board.",
+      "This sudoku solver uses a backtracking algorithm to find a solution for any solvable sudoku board. With the backtracking algorithm for each empty box, it will try all numbers, find a number that works, repeats for each empty box, and backtracks to check if all numbers will work with every row and column. Users can choose to solve the sudoku board by themselves or press space to see the backtracking algorithm complete the board.",
     image: "/images/2.png",
     tags: ["Python", "Pygame"],
     source: "https://github.com/raguilar27/Sudoku-Solver",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Recipe App",
     description:
-      "The Recipe App allows the user to favorite random recipes, search for specific recipes, and view their favorite recipes. This application uses TheMealDB API to fetch random recipies, lists of recipes, and ingredients.",
+      "The Recipe App allows the user to favorite random recipes, search for specific recipes, and view their favorite recipes. This application uses TheMealDB API to fetch random recipes, lists of recipes, and ingredients.",
     image: "/images/3.png",
     tags: ["Html", "CSS", "JavaScript", "TheMealDB"],
     source: "https://github.com/raguilar27/Recipe-App",
