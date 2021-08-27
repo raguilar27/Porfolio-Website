@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Sudoku Solver",
     description:
-      "This sudoku solver uses a backtracking algorithm to find a solution for any solvable sudoku board. With the backtracking algorithm for each empty box, it will try all numbers, find a number that works, repeats for each empty box, and backtracks to check if all numbers will work with every row and column. Users can choose to solve the sudoku board by themselves or press space to see the backtracking algorithm complete the board.",
+      "This sudoku solver uses a backtracking algorithm to find a solution for any solvable sudoku board. With the backtracking algorithm for each empty box, it will try all numbers, find a number that works, repeats for each empty box, and backtracks to check if all numbers will work with every row and column. Users can choose to solve the sudoku board by themselves or press space, to see the backtracking algorithm complete the board.",
     image: "/images/2.png",
     tags: ["Python", "Pygame"],
     source: "https://github.com/raguilar27/Sudoku-Solver",
