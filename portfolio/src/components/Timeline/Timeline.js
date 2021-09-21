@@ -69,12 +69,13 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I am an Alumni from UC Merced, with a Computer Science and Engineering
-        degree. My interests in the tech world are Artificial Intelligence, Game
-        Development, and Software Engineering. My current hobbies are coding,
-        working-out, gaming, and reading. Later in my career, I aspire to become
-        a researcher in the field of artificial intelligence because I am
-        fascinated by how complex a computer system can become.
+        Alumni from UC Merced, with a Computer Science and Engineering degree.
+        My interests in the tech world are Artificial Intelligence, Game
+        Development, and Software Engineering. Later in my career, I aspire to
+        become a researcher in the field of artificial intelligence because I am
+        fascinated by how complex a computer system can become. Outside of the
+        tech field, my favorite hobbies are working-out, gaming, reading,
+        traveling and exploring nature.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

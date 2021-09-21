@@ -22,9 +22,9 @@ const Technologies = () => (
     <SectionText>
       I've worked on Full-Stack projects with various coding languages and
       frameworks. My favorite coding languages are: Java for data structures and
-      algorithms, Python for machine learning, and React for frontend web
-      deveoplment. Some of the technologies I want to work with later on are C++
-      and Unity for game deveoplment.
+      algorithms, Python for machine learning, and MERN stack for web
+      deveoplment. Some of the technologies I want to work with more are C++ and
+      Unity for game deveoplment.
     </SectionText>
     <List>
       <ListItem>
@@ -43,7 +43,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, Python, C/C++, Node.js, MySQL
+            Java, Python, C/C++, Node.js, MySQL, Express.js, MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
