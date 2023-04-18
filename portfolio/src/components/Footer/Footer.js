@@ -41,6 +41,9 @@ const Footer = () => {
           >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
+          <SocialIcons href="https://github.com/rogelio-brill" target="_blank">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

@@ -1,5 +1,6 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact } from "react-icons/di";
+import { AiOutlineBug } from "react-icons/ai";
 import {
   Section,
   SectionDivider,
@@ -21,10 +22,11 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked on Full-Stack projects with various coding languages and
-      frameworks. My favorite coding languages are: Java for data structures and
-      algorithms, Python for machine learning, and MERN stack for web
-      deveoplment. Some of the technologies I want to work with more are C++ and
-      Unity for game deveoplment.
+      frameworks. My preferred coding languages are: Java for backend web
+      development, data structures, algorithms, and automated testing.
+      JavaScript/React.js for frontend web deveoplment. Some of the technologies
+      I want to work with more are Python for machine learning and C++/Unity for
+      game deveoplment.
     </SectionText>
     <List>
       <ListItem>
@@ -33,7 +35,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Html, CSS, JavaScript, React.js
+            HTML5, CSS3, JavaScript, React.js, Next.js, Tailwind CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +45,18 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, Python, C/C++, Node.js, MySQL, Express.js, MongoDB
+            Java, Node.js, MySQL, Express.js, MongoDB, SpringBoot, Maven
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineBug size="3rem" />
+        <ListContainer>
+          <ListTitle>Testing</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Java, Selenium, WebdriverIO, ApachePOI, Rest-Assured, PostMan,
+            TestNG, Cucumber, Gherkin
           </ListParagraph>
         </ListContainer>
       </ListItem>
