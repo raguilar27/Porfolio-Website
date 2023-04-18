@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "Brillio Capstone Poject",
     description:
-      "Created Automated Frontend and API Test Scripts for the website: https://www.automationexercise.com/. Developed Testing Automation Framework and Test Scripts using Page Object Model and BDD testing design patterns. Created a Test Plan and Test Cases for the website, using a BDD test design pattern.",
+      "Created Automated Frontend and API Test Scripts for the website: https://www.automationexercise.com/. Developed Testing Automation Framework and Test Scripts using Page Object Model and BDD testing design patterns.",
     image: "/images/exercise.png",
     tags: ["Maven", "Selenium", "Cucumber", "WebDriverIO"],
     source: "https://github.com/capstone-git/capstone-git",
