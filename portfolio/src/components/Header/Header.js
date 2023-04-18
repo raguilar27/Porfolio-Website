@@ -61,6 +61,9 @@ const Header = () => (
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
+      <SocialIcons href="https://github.com/rogelio-brill" target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
     </Div3>
   </Container>
 );
