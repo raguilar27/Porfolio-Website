@@ -1,24 +1,34 @@
 export const projects = [
   {
-    title: "Ebay Automated Testing",
+    title: "FaceBook Clone",
+    description:
+      "Sign-in/Login features using the NextAuth.js library to allow users to sign in with an existing account. After login, the user is able to create / view posts. Logged-in users can also like, comment, and interact with friend's posts ",
+    image: "/images/Facebook.png",
+    tags: ["MySQL", "Java", "Next.js", "SpringBoot"],
+    source: "https://github.com/raguilar27/FacebookClone",
+    visit: "https://github.com/raguilar27/FacebookClone",
+    id: 0,
+  },
+  {
+    title: "Ebay Testing",
     description:
       "Created Automated Test Cases for the page where you view all the information about an item. Frontend test cases include unit, cross-browser, integration, and localization testing. Backend test cases include API testing. Used a Page Object Model (POM) design pattern to create the test cases.",
     image: "/images/item.png",
     tags: ["Java", "Maven", "Selenium", "TestNG", "Rest-Assured"],
     source: "https://github.com/rogelio-brill/ViewCart",
     visit: "https://github.com/rogelio-brill/ViewCart",
-    id: 0,
+    id: 1,
   },
 
   {
-    title: "Brillio Capstone Poject",
+    title: "Automation Testing",
     description:
       "Created Automated Frontend and API Test Scripts for the website: https://www.automationexercise.com/. Developed Testing Automation Framework and Test Scripts using Page Object Model and BDD testing design patterns.",
     image: "/images/exercise.png",
     tags: ["Maven", "Selenium", "Cucumber", "WebDriverIO"],
     source: "https://github.com/capstone-git/capstone-git",
     visit: "https://www.automationexercise.com/.",
-    id: 1,
+    id: 2,
   },
   {
     title: "Chat App",
@@ -28,16 +38,6 @@ export const projects = [
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://github.com/raguilar27/ChatApp",
     visit: "https://github.com/raguilar27/ChatApp",
-    id: 2,
-  },
-  {
-    title: "UEFA Champions League Stats",
-    description:
-      "Backend application that shows UEFA Champions League Statistics, through the command line. Once the user selects the perferred season they can: see the standings of the whole competition, clubs that participated, club and player stats. ",
-    image: "/images/4.png",
-    tags: ["SQL", "Java", "Java.SDK"],
-    source: "https://github.com/raguilar27/UEFA-Stats",
-    visit: "https://github.com/raguilar27/UEFA-Stats",
     id: 3,
   },
 ];
