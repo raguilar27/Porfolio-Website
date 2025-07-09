@@ -24,9 +24,8 @@ const Technologies = () => (
       I've worked on Full-Stack projects with various coding languages and
       frameworks. My preferred coding languages are: Java for backend web
       development, data structures, algorithms, and automated testing.
-      JavaScript/React.js for frontend web deveoplment. Some of the technologies
-      I want to work with more are Python for machine learning and C++/Unity for
-      game deveoplment.
+      JavaScript/React.js for frontend web deveoplment. Technologies I am
+      working on in my spare time is Python for Artificial Intelligence.
     </SectionText>
     <List>
       <ListItem>
@@ -45,7 +44,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java, Node.js, MySQL, Express.js, MongoDB, SpringBoot, Maven
+            Java, Python, Node.js, MySQL, Express.js, MongoDB, SpringBoot, Maven
           </ListParagraph>
         </ListContainer>
       </ListItem>

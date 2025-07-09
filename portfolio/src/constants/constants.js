@@ -63,7 +63,15 @@ export const TimeLineData = [
   },
   {
     year: 2023,
-    text: "Looking for new job opportunies in Full Stack Web Development",
+    text: "Second job working as a QA Automation Engineer at Mercury Insurance",
+  },
+  {
+    year: 2024,
+    text: "Gaining experience in a software development team as a QA Automation Engineer",
+  },
+  {
+    year: 2025,
+    text: "Seeking to make a transition into AI Engineering",
   },
 ];
 

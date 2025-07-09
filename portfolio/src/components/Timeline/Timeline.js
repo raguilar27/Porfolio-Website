@@ -70,11 +70,11 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Alumni from UC Merced, with a Computer Science and Engineering degree.
-        My interests in the tech world are Artificial Intelligence, Game
-        Development, and Software Engineering. Later in my career, I aspire to
-        become a researcher in the field of artificial intelligence because I am
-        fascinated by how complex a computer system can become. Outside of the
-        tech field, my favorite hobbies are working-out, gaming, reading,
+        My interests in the tech world are Artificial Intelligence and Software
+        Engineering. Later in my career, I aspire to become a researcher in the
+        field of artificial intelligence because I am fascinated by the
+        potential impact AI can have in various fields of our society. Outside
+        of the tech field, my favorite hobbies are working out, gaming, reading,
         traveling and exploring nature.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

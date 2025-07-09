@@ -17,9 +17,7 @@ const Hero = (props) => (
         <br />
         Rogelio Aguilar
       </SectionTitle>
-      <SectionText>
-        Full-Stack web developer and aspiring Software Engineer
-      </SectionText>
+      <SectionText>QA Engineer and aspiring AI Engineer</SectionText>
       <Link href="../../../images/Resume.pdf">
         <Button>
           <a target="_blank">View Resume</a>
